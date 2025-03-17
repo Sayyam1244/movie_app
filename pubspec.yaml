@@ -1,0 +1,32 @@
+name: movie_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  cached_network_image: ^3.4.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  flutter_screenutil: ^5.9.3
+  flutter_smart_dialog: ^4.9.8+7
+  flutter_svg: ^2.0.10+1
+  intl: ^0.20.2
+  shimmer: ^3.0.0
+  video_player: ^2.9.3
+  youtube_player_flutter: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
