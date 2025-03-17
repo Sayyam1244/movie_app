@@ -1,24 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // Padding
-EdgeInsets paddingSmall = EdgeInsets.all(10.sp);
-EdgeInsets paddingMedium = EdgeInsets.all(14.sp);
-EdgeInsets paddingDefault = EdgeInsets.all(20.sp);
-EdgeInsets paddingHorizontal = EdgeInsets.symmetric(horizontal: 20.sp);
-EdgeInsets paddingVertical = EdgeInsets.symmetric(vertical: 20.sp);
+EdgeInsets paddingSmall = EdgeInsets.all(10);
+EdgeInsets paddingMedium = EdgeInsets.all(14);
+EdgeInsets paddingDefault = EdgeInsets.all(20);
+EdgeInsets paddingHorizontal = EdgeInsets.symmetric(horizontal: 20);
+EdgeInsets paddingVertical = EdgeInsets.symmetric(vertical: 20);
 
 // Spacing
-double spacingExtraSmall = 4.sp;
-double spacingSmall = 8.sp;
-double spacingMedium = 12.sp;
-double spacingDefault = 16.sp;
-double spacingLarge = 24.sp;
-double spacingExtraLarge = 32.sp;
+double spacingExtraSmall = 4;
+double spacingSmall = 8;
+double spacingMedium = 12;
+double spacingDefault = 16;
+double spacingLarge = 24;
+double spacingExtraLarge = 32;
 
-double get radiusSmall => 8.sp;
-double get radiusDefault => 12.sp;
-double get radiusCircular => 32.sp;
+double get radiusSmall => 8;
+double get radiusDefault => 12;
+double get radiusCircular => 32;
 
 BorderRadius get borderRadiusSmall => BorderRadius.circular(radiusSmall);
 BorderRadius get borderRadiusDefault => BorderRadius.circular(radiusDefault);
